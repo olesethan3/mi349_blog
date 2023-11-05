@@ -1,1 +1,55 @@
-/* Add screen styles below */
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #18453B;
+    background: #fff;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+.blog-post {
+    border-top: 1px dotted #18453B;
+}
+
+.blog-post-2 {
+    border-top: 1px dotted #18453B;
+}
+
+article {
+    border-bottom: 1px solid #18453B;
+}
+
+section{
+    display: flex;
+}
+
+.a1p1 {
+    flex: 2;
+}
+
+.a2p2 {
+    flex: 2;
+}
+
+.a3p3 {
+    flex: 2;
+}
+
+.msuteam {
+    float: right;
+    height: 333px;
+    width: 600px;
+}
